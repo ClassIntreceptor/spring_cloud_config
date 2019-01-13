@@ -19,3 +19,6 @@ spring:
           search-paths: {application}
           default-label: trunk
           basedir: /data #默认在系统临时目录下面，需要调整一下避免临时文件被系统自动清理
+server:
+  compression:
+    enabled: true
